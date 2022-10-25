@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+    padding: 0 1rem;
+}
+
+header {
+    padding: 3rem 0;
+    text-align: center;
+    max-width: 34rem;
+}
+
+header h2 {
+    font-weight: 200;
+    font-size: 2.2rem;
+}
+
+header h1 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: hsl(234, 12%, 34%);
+}
+
+header p {
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.supervisor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 25rem;
+    height: 16rem;
+    border-radius: .2rem;
+    padding: 2rem;
+    gap: 3rem;
+    border-top: .3rem solid hsl(180, 62%, 55%);
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 7px 6px 47px -7px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 20rem;
+}
+
+.text h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: hsl(234, 12%, 34%);
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(229, 6%, 66%);
+}
+
+.supervisor img {
+    max-width: 4rem;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.team_builder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 25rem;
+    height: 16rem;
+    padding: 2rem;
+    border-radius: .2rem;
+    gap: 3rem;
+    border-top: .3rem solid hsl(0, 78%, 62%);
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 7px 6px 47px -7px rgba(0, 0, 0, 0.3);
+}
+
+.team_builder img {
+    max-width: 4rem;
+}
+
+.karma {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 25rem;
+    height: 16rem;
+    padding: 2rem;
+    border-radius: .2rem;
+    gap: 3rem;
+    border-top: .3rem solid hsl(34, 97%, 64%);
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 7px 6px 47px -7px rgba(0, 0, 0, 0.3);
+}
+
+.karma img {
+    max-width: 4rem;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 25rem;
+    height: 16rem;
+    padding: 2rem;
+    border-radius: .2rem;
+    gap: 3rem;
+    border-top: .3rem solid hsl(212, 86%, 64%);
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 7px 6px 47px -7px rgba(0, 0, 0, 0.3);
+}
+
+.calculator img {
+    max-width: 4rem;
+}
+
+.attribution {
+    padding: 1rem 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 850px) {
+    header {
+        max-width: 20rem;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .supervisor {
+        max-width: 100%;
+    }
+
+    .text {
+        max-width: 20rem;
+    }
+
+    .team_builder {
+        max-width: 100%;
+
+    }
+
+    .karma {
+        max-width: 100%;
+
+    }
+
+    .calculator {
+        max-width: 100%;
+
+    }
+}
